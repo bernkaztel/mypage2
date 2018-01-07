@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Iceland</title>
+  <!-- Archivo de grid -->
+  <link rel="stylesheet" href="css/grid.css">
+  <!-- Enlace de iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Archivo de estilos principales -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Viewport Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- Fuentes de google -->
+  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Karla" rel="stylesheet">
+  <!-- Barra de navegación -->
+  <div class="topnav" id="myTopnav">
+    <a href="#" class="active">Visit Iceland</a>
+    <a href="#sectionA">About</a>
+    <a href="#sectionB">Contact</a>
+    <a href="#gallery">Gallery</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+</head>
+
+<body>
+  <!-- Primera sección con longitud de 8 columnas -->
+  <div class="section group">
+    <div class="col span_8_of_8" id="banner">
+      <div class="col span_8_of_8" id="bannertext">
+        <h1>Iceland</h1>
+        <h3>The Land of Ice and Fire</h3>
+      </div>
+      <!-- Imagen de fondo de banner -->
+      <img class="bg" src="assets/images/banner2.jpg" alt="">
+    </div>
+  </div>
+  <!-- Segunda sección  -->
+  <div class="section group">
+    <!-- Espacio vacío con longitud de una columna -->
+    <div class="col span_1_of_8" class="empty">
+      no content
+    </div>
+    <!-- Sección A con longitud de cuatro columnas -->
+    <div class="col span_4_of_8" id="sectionA">
+      <h2>About Iceland</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odit aliquam quis perspiciatis ullam quia suscipit
+        dolorem enim ipsa incidunt nesciunt quas? Odit dolor suscipit sunt aliquam, accusantium tempore non dicta nulla inventore
+        blanditiis adipisci voluptate autem. Minus vitae ipsum debitis aut eaque quibusdam itaque quod corrupti harum! Totam
+        cum neque alias a nobis maiores deserunt illo. Quisquam, eius cumque impedit dolor harum fuga.</p>
+      <button>Read More</button>
+    </div>
+    <!-- Sección B con longitud de dos columnas -->
+    <div class="col span_2_of_8" id="sectionB">
+      <span>
+        <h4>Contact</h4>
+        <p>
+          <i class="fa fa-home" aria-hidden="true"></i> Tjarnargata 11
+          <br> 101 Reykjavik
+          <br>
+          <i class="fa fa-phone-square" aria-hidden="true"></i> +354 411 6040
+          <br>
+          <i class="fa fa-envelope" aria-hidden="true"></i> info [a] visitreykjavik.is
+          <br>
+          <i class="fa fa-sun-o" aria-hidden="true"></i>Opening hours daily: 8:00 to 20:00</p>
+      </span>
+    </div>
+  </div>
+  <!-- Tercera sección con galería de imágenes -->
+  <div class="section group " id="gallery">
+    <!-- Espacio vacío con longitud de una columna -->
+    <div class="col span_1_of_8" class="empty">
+      no content
+    </div>
+    <!-- Contenedor de imágenes con longitud de dos columnas -->
+    <div class="col span_2_of_8 images">
+      <img src="assets/images/card1.jpg" class="card" alt="">
+      <div class="cardcontainer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, et!</p>
+        <div class="twocolors">
+          <button class="cardbtn">Click Here </button>
+        </div>
+      </div>
+    </div>
+    <!-- Contenedor de imágenes con longitud de dos columnas -->
+    <div class="col span_2_of_8 images">
+      <img src="assets/images/card2.jpg" class="card" alt="">
+      <div class="cardcontainer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, et!</p>
+        <div class="twocolors">
+          <button class="cardbtn">Click Here </button>
+        </div>
+      </div>
+    </div>
+    <!-- Contenedor de imágenes con longitud de dos columnas -->
+    <div class="col span_2_of_8 images">
+      <img src="assets/images/card3.jpg" class="card" alt="">
+      <div class="cardcontainer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, et!</p>
+        <div class="twocolors">
+          <button class="cardbtn">Click Here </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Cuatro sección con galería de imágenes -->
+  <div class="section group">
+    <!-- Espacio vacío con longitud de una columna -->
+    <div class="col span_1_of_8" class="empty">
+      no content
+    </div>
+    <!-- Contenedor de imágenes con longitud de dos columnas -->
+    <div class="col span_2_of_8 images">
+      <img src="assets/images/card4.jpg" class="card" alt="">
+      <div class="cardcontainer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, et!</p>
+        <div class="twocolors">
+          <button class="cardbtn">Click Here </button>
+        </div>
+      </div>
+    </div>
+    <!-- Contenedor de imágenes con longitud de dos columnas -->
+    <div class="col span_2_of_8 images">
+      <img src="assets/images/card5.jpg" class="card" alt="">
+      <div class="cardcontainer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, et!</p>
+        <div class="twocolors">
+          <button class="cardbtn">Click Here </button>
+        </div>
+      </div>
+    </div>
+    <!-- Contenedor de imágenes con longitud de dos columnas -->
+    <div class="col span_2_of_8 images">
+      <img src="assets/images/card6.jpg" class="card" alt="">
+      <div class="cardcontainer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, et!</p>
+        <div class="twocolors">
+          <button class="cardbtn">Click Here </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Quinta sección con galería de imágenes -->
+  <div class="section group">
+    <!-- Espacio vacío con longitud de una columna -->
+    <div class="col span_1_of_8" class="empty">
+      no content
+    </div>
+    <!-- Contenedor de imágenes con longitud de dos columnas -->
+    <div class="col span_2_of_8 images">
+      <img src="assets/images/card7.jpg" class="card" alt="">
+      <div class="cardcontainer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, et!</p>
+        <div class="twocolors">
+          <button class="cardbtn">Click Here </button>
+        </div>
+      </div>
+    </div>
+    <!-- Contenedor de imágenes con longitud de dos columnas -->
+    <div class="col span_2_of_8 images">
+      <img src="assets/images/card8.jpg" class="card" alt="">
+      <div class="cardcontainer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, et!</p>
+        <div class="twocolors">
+          <button class="cardbtn">Click Here </button>
+        </div>
+      </div>
+    </div>
+    <!-- Contenedor de imágenes con longitud de dos columnas -->
+    <div class="col span_2_of_8 images">
+      <img src="assets/images/card9.jpg" class="card" alt="">
+      <div class="cardcontainer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, et!</p>
+        <div class="twocolors">
+          <button class="cardbtn">Click Here </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Pie de página-->
+  <div class="nav" id="footer">
+    &#169; Copyright
+  </div>
+  <!--Archivo de JS-->
+  <script src="js/app.js"></script>
+</body>
+
+</html>

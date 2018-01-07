@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Las secciones dividen la pagina horizontalmente*/
+
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*Las columnas solo tienen margen derecho*/
+
+.col {
+    display: block;
+    float: left;
+    margin: 0% 0 1% 1%;
+}
+
+.col:first-child {
+    margin-left: 0;
+}
+
+
+/*Group limpia cada una de las secciones y a sus hijos*/
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+
+/*Hacemos la cuadricula de 8 columnas*/
+
+.span_8_of_8 {
+    width: 100%;
+    height: auto;
+}
+
+.span_7_of_8 {
+    width: 87.37%;
+    background-color: lightblue;
+}
+
+.span_6_of_8 {
+    width: 74.75%;
+    background-color: yellow;
+}
+
+.span_5_of_8 {
+    width: 62.12%;
+    background-color: green
+}
+
+.span_4_of_8 {
+    width: 49.5%;
+    background-color: palevioletred
+}
+
+.span_3_of_8 {
+    width: 36.87%;
+    background-color: purple
+}
+
+.span_2_of_8 {
+    width: 24.25%;
+    background-color: pink
+}
+
+.span_1_of_8 {
+    width: 11.62%;
+    background-color: burlywood;
+    visibility: hidden;
+}
+
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+
+@media only screen and (max-width: 768px) {
+    .col {
+        margin: 0% 0% 2% 0%;
+    }
+    .span_1_of_8,
+    .span_2_of_8,
+    .span_3_of_8,
+    .span_4_of_8,
+    .span_5_of_8,
+    .span_6_of_8,
+    .span_7_of_8,
+    .span_8_of_8 {
+        width: 100%;
+    }
+
+.span_1_of_8 {
+  width: 11.62%;
+  display: none;
+}
+
+.span_2_of_8 {
+margin: 10% 
+width 98%;
+}
+
+}
